@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/game_top_panel_height"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:clipChildren="false">
+
+        <View
+            android:id="@+id/preview_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"/>
+
+
+        <TextView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/preview_bottom_margin"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/preview_text_size"
+            android:layout_above="@+id/preview_bottom"/>
+
+
+        <View
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/preview_bottom"/>
+
+
+        <View
+            android:id="@+id/preview_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentBottom="true"/>
+
+
+        <ImageButton
+            android:id="@+id/pause_btn"
+            android:layout_width="@dimen/toolbar_btn_size"
+            android:layout_height="@dimen/toolbar_btn_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/pause_settings_btn_offset"
+            android:layout_marginLeft="@dimen/pause_settings_btn_offset"
+            android:soundEffectsEnabled="false"/>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/chrono_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/chrono_top_margin"
+            android:layout_centerHorizontal="true">
+
+
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="00:00"
+                android:textSize="@dimen/chrono_text_size"/>
+
+            <TextView
+                android:id="@+id/words_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:layout_below="@+id/chrono"
+                android:paddingTop="@dimen/words_left_padding_up"
+                android:paddingBottom="@dimen/words_left_padding_bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/words_left_text_size"
+                android:background="@drawable/words_left_bg"/>
+
+        </RelativeLayout>
+
+
+
+
+        <ImageButton
+            android:id="@+id/help_btn"
+            android:layout_width="@dimen/toolbar_btn_size"
+            android:layout_height="@dimen/toolbar_btn_size"
+            android:layout_toLeftOf="@+id/settings_btn"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/pause_settings_btn_offset"
+            android:layout_marginRight="@dimen/pause_settings_btn_offset"
+            android:soundEffectsEnabled="false"/>
+
+
+
+
+        <ImageButton
+            android:id="@+id/settings_btn"
+            android:layout_width="@dimen/toolbar_btn_size"
+            android:layout_height="@dimen/toolbar_btn_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/pause_settings_btn_offset"
+            android:layout_marginRight="@dimen/pause_settings_btn_offset"
+            android:soundEffectsEnabled="false"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/grid_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <net.codecanyon.trimax.wordsearch.game.WSLayout
+            android:id="@+id/game_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid_container"
+        android:layout_above="@+id/adView"
+        android:visibility="invisible"
+        android:clipChildren="false">
+
+
+        <View
+            android:id="@+id/sep"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"/>
+
+
+
+        <GridView
+            android:id="@+id/grd_word_list"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/sep"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/hint_container"
+            android:horizontalSpacing="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="2dp"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/hint_container"
+            android:layout_width="@dimen/hint_width"
+            android:layout_height="@dimen/hint_height"
+            android:layout_alignParentRight="true"
+
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:layout_marginRight="@dimen/hint_margin_left"
+            android:clipChildren="false">
+
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/plus"
+                android:layout_alignParentTop="true"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/hint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/hint_bg"
+                android:scaleType="centerInside"
+                android:padding="@dimen/hint_icon_padding"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:soundEffectsEnabled="false"/>
+
+
+            <TextView
+                android:id="@+id/hints_left"
+                android:layout_width="@dimen/num_hints_bg_size"
+                android:layout_height="@dimen/num_hints_bg_size"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="@dimen/hint_text_size"
+                android:textStyle="bold"
+                android:background="@drawable/hint_bg"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"/>
+
+
+         </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="@dimen/preloader_size"
+        android:layout_height="@dimen/preloader_size"
+        style="@style/AVLoadingIndicatorView"
+        app:indicatorName="BallPulseIndicator"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/coin_icon"
+        android:visibility="gone"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_inner"
+        android:layout_width="@dimen/time_fin_dialog_width"
+        android:layout_height="@dimen/time_fin_dialog_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lang_dialog_header_height"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/lang_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="@dimen/dialog_side_paddings"
+                android:paddingRight="@dimen/dialog_side_paddings"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/lang_item_text_size"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header">
+
+            <ImageView
+                android:id="@+id/hourglass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/hourglass_margin"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/play_video"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/center"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:src="@drawable/reward_icon_b"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/play_video_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:layout_marginRight="5dp"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/button_text"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/play_video_n"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/center"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector_n"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:src="@drawable/reward_icon_b_n"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/play_video_label_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:layout_marginRight="5dp"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/text_color_n"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/retry"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/play_video"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:src="@drawable/restart_icon"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/retry_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:layout_marginRight="5dp"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/button_text"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/retry_n"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/play_video_n"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector_n"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:src="@drawable/restart_icon_n"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/retry_label_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:layout_marginRight="5dp"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/text_color_n"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/retry"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:src="@drawable/home_icon"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/home_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:layout_marginRight="5dp"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/button_text"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/home_n"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_below="@+id/retry_n"
+            android:layout_marginTop="@dimen/finish_dialog_btn_margin"
+            android:layout_marginLeft="@dimen/time_fin_dialog_btn_margin"
+            android:layout_marginRight="@dimen/time_fin_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector_n"
+            android:padding="0dp"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:src="@drawable/home_icon_n"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/home_label_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:layout_marginRight="5dp"
+                android:includeFontPadding="false"
+                android:minHeight="0dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/text_color_n"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

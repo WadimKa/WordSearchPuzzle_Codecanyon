@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szukanie Słowa</string>
+
+    <string name="pref_title_language">Język</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="well_done">Gratulacje!</string>
+    <string name="rta_dialog_title">Oceń aplikację</string>
+    <string name="rta_dialog_message">Jeżeli spodobała Ci się ta aplikacja, poświęć chwilę by ją ocenić. To nie zajmie dłużej niż jedną minutę. Z góry dziękuję za Twoje wsparcie!</string>
+    <string name="rta_dialog_ok">Oceń teraz</string>
+    <string name="rta_dialog_cancel">Później</string>
+    <string name="rta_dialog_no">Nie dziękuję</string>
+    <string name="change_language">Zmień język?</string>
+    <string name="difficult">Trudny</string>
+    <string name="difficulty">Trudność</string>
+    <string name="easy">Łatwo</string>
+    <string name="ext_difficult">Ekstremalnie Trudne</string>
+    <string name="grid">Krata</string>
+    <string name="home">Dom</string>
+    <string name="marquee">Przesuwne Punkty</string>
+    <string name="medium">Średni</string>
+    <string name="night_mode">Tryb Nocny</string>
+    <string name="no">Nie</string>
+    <string name="paused">Wstrzymano</string>
+    <string name="play">Grać</string>
+    <string name="play_again">Zagrać Ponownie</string>
+    <string name="pret_difficult">Nadmiernie Trudne</string>
+    <string name="restart">Uruchom Ponownie</string>
+    <string name="resume">Kontyntynuj</string>
+    <string name="reward_text">Obejrzyj film, aby uzyskać 3 wskazówki?</string>
+    <string name="sound">Dźwięk</string>
+    <string name="sup_difficult">Trudno Powiedzieć</string>
+    <string name="very_difficult">Bardzo Trudne</string>
+    <string name="very_easy">Bardzo łatwe</string>
+    <string name="watch_video">Obejrzyj Film</string>
+    <string name="yes">Tak</string>
+    <string name="letter_anim">Animacja Listowa</string>
+    <string name="num_cols_label">Liczba Kolumn Słów</string>
+    <string name="time_mode_title">Limit czasu</string>
+    <string name="time_limited_option">Czas ograniczony</string>
+    <string name="no_time_limit_option">Bez limitu czasu</string>
+    <string name="time_is_up">Koniec czasu!</string>
+    <string name="continue_playing">Kontynuować grę?</string>
+    <string name="retry">Spróbować ponownie</string>
+    <string name="gpg_sign_in_label">Zaloguj</string>
+    <string name="gpg_sign_out_label">Wyloguj Się</string>
+    <string name="how_to_play_title">Jak grać</string>
+    <string name="how_to_play_text">Znajdź ukryte słowa w siatce poziomo, pionowo lub ukośnie.</string>
+    <string name="hints_title">Użyj wskazówek</string>
+    <string name="hints_text">Możesz odkryć pierwszą literę następnego słowa, gdy utkniesz.</string>
+    <string name="hint_reward_title">Nagroda wskazówka</string>
+    <string name="hint_reward_text">Możesz zdobyć wskazówki, oglądając krótkie wideo, gdy ich nie ma.</string>
+    <string name="leaderboards_achievements_title">Osiągnięcia &amp; tabele wyników</string>
+    <string name="leaderboards_achievements_text">Zaloguj się w Usługach Google Play, aby sprawdzić, jak dobrze sobie radzisz w porównaniu do znajomych i reszty świata.</string>
+    <string name="gpg_sign_in_out_title">Zaloguj się i wyloguj</string>
+    <string name="gpg_sing_in_out_text">Możesz się zalogować i wylogować za pomocą powiązanej opcji w ustawieniach.</string>
+    <string name="not_signed_in">Nie zarejestrowany</string>
+    <string name="sign_in_to_submit">Zaloguj się, aby wysłać swoje postępy</string>
+    <string name="no_connection">Brak połączenia</string>
+    <string name="extremely_easy">Niezwykle łatwe</string>
+</resources>

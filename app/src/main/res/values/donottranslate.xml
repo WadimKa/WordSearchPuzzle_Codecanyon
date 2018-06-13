@@ -1,0 +1,37 @@
+<resources>
+
+
+    
+    
+
+
+    <string-array name="language_codes">
+        <item>en</item>
+        <item>tr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>el</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>hu</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>sw</item>
+    </string-array>
+    
+    
+
+    
+    
+    
+</resources>

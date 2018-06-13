@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">単語検索</string>
+    <string name="change_language">辞令？</string>
+
+    <string name="difficulty">難</string>
+    <string name="rta_dialog_title">アプリをレビューしませんか？</string>
+    <string name="rta_dialog_message">このアプリを気に入っていただいたら、ぜひレビューしてください。レビューは１分未満で終わります。</string>
+    <string name="rta_dialog_ok">はい</string>
+    <string name="rta_dialog_cancel">あとで</string>
+    <string name="rta_dialog_no">いいえ</string>
+    <string name="grid">グリッド</string>
+    <string name="home">かてい</string>
+    <string name="marquee">スライディングドット</string>
+
+    <string name="night_mode">ナイト</string>
+    <string name="no">いいえ</string>
+    <string name="paused">一時停止中</string>
+    <string name="play">てあそび</string>
+    <string name="play_again">再びプレー</string>
+    <string name="pref_title_language">ことば</string>
+
+    <string name="restart">さいしゅっぱつ</string>
+    <string name="resume">そんち</string>
+    <string name="reward_text">3つのヒントを得るためのビデオを見る？</string>
+    <string name="settings">設定</string>
+    <string name="sound">おんきょう</string>
+
+    <string name="very_easy">超簡易</string>
+    <string name="easy">たやすい</string>
+    <string name="medium">並</string>
+    <string name="difficult">びみょう</string>
+    <string name="very_difficult">かたい</string>
+    <string name="pret_difficult">いっしょうけんめい</string>
+    <string name="ext_difficult">しょむずかしい</string>
+    <string name="sup_difficult">しなん</string>
+
+
+    <string name="watch_video">ビデオを見る</string>
+    <string name="well_done">ことぶき!</string>
+    <string name="yes">はい</string>
+    <string name="letter_anim">レターアニメーション</string>
+    <string name="num_cols_label">単語列の数</string>
+    <string name="time_mode_title">制限時間</string>
+    <string name="time_limited_option">時間限定</string>
+    <string name="no_time_limit_option">時間制限なし</string>
+    <string name="time_is_up">時間が終了しました</string>
+    <string name="continue_playing">演奏を続けますか？</string>
+    <string name="retry">リトライ</string>
+    <string name="gpg_sign_in_label">サインイン</string>
+    <string name="gpg_sign_out_label">サインアウト</string>
+    <string name="how_to_play_title">遊び方</string>
+    <string name="how_to_play_text">グリッド内で、水平方向、垂直方向、斜め方向の隠れた単語を探します。</string>
+    <string name="hints_title">ヒントを使用する</string>
+    <string name="hints_text">あなたが立ち往生したときに次の単語の最初の文字を明らかにすることができます。</string>
+    <string name="hint_reward_title">ヒント報酬</string>
+    <string name="hint_reward_text">あなたはそれらを使い果たしたときに短いビデオを見てヒントを得ることができます。</string>
+    <string name="leaderboards_achievements_title">実績とリーダーボード</string>
+    <string name="leaderboards_achievements_text">Google Playサービスにログインして、友だちや世界中の他のユーザーと比較して、自分がどれだけうまく行っているかを確認します。</string>
+    <string name="gpg_sign_in_out_title">ログインしてログアウトする</string>
+    <string name="gpg_sing_in_out_text">設定で関連するオプションを使用してログインしてログアウトすることができます。</string>
+    <string name="not_signed_in">ログアウトしました</string>
+    <string name="sign_in_to_submit">進行状況を送信するにはサインインしてください</string>
+    <string name="no_connection">接続なし</string>
+    <string name="extremely_easy">非常に簡単</string>
+</resources>

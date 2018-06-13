@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ordsøk</string>
+
+    <string name="pref_title_language">Språk</string>
+
+    <string name="settings">Innstillinger</string>
+    <string name="well_done">Gratulerer!</string>
+
+    <string name="change_language">Skifte språk?</string>
+    <string name="difficult">Vanskelig</string>
+    <string name="difficulty">Vanskelighet</string>
+    <string name="easy">Lett</string>
+    <string name="ext_difficult">Ekstremt Vanskelig</string>
+    <string name="grid">Nett</string>
+    <string name="home">Hjem</string>
+    <string name="marquee">Glidende Prikker</string>
+    <string name="medium">Medium</string>
+    <string name="night_mode">Nattmodus</string>
+    <string name="no">Nei</string>
+    <string name="paused">Pauset</string>
+    <string name="play">Spille</string>
+    <string name="play_again">Spill Igjen</string>
+    <string name="pret_difficult">Overdreven Vanskelig</string>
+    <string name="restart">Omstart</string>
+    <string name="resume">Fortsette</string>
+    <string name="reward_text">Se en video for å få 3 tips?</string>
+    <string name="sound">Lyd</string>
+    <string name="sup_difficult">Overordentlig Vanskelig</string>
+    <string name="very_difficult">Veldig Vanskelig</string>
+    <string name="very_easy">Meget Lett</string>
+    <string name="watch_video">Se på Video</string>
+    <string name="yes">Ja</string>
+    <string name="letter_anim">Brev Animasjon</string>
+    <string name="rta_dialog_title">Ranger denne appen</string>
+    <string name="rta_dialog_message">Hvis du liker å bruke denne appen, vil du ha et øyeblikk å vurdere det? Det tar ikke mer enn et minutt. Takk for støtten!</string>
+    <string name="rta_dialog_ok">Vurder nå</string>
+    <string name="rta_dialog_cancel">Seinere</string>
+    <string name="rta_dialog_no">Nei takk</string>
+    <string name="num_cols_label">Antall Ordkolonner</string>
+    <string name="time_mode_title">Tidsbegrensning</string>
+    <string name="time_limited_option">Tidsbegrenset</string>
+    <string name="no_time_limit_option">Ingen tidsbegrensning</string>
+    <string name="time_is_up">Tiden er oppe!</string>
+    <string name="continue_playing">Fortsett å spille?</string>
+    <string name="retry">Prøv på nytt</string>
+    <string name="gpg_sign_in_label">Logg Inn</string>
+    <string name="gpg_sign_out_label">Logg Ut</string>
+    <string name="how_to_play_title">Hvordan spille</string>
+    <string name="how_to_play_text">Finn skjulte ord i rutenettet horisontalt, vertikalt eller diagonalt.</string>
+    <string name="hints_title">Bruk tips</string>
+    <string name="hints_text">Du kan avsløre første bokstav i neste ord når du sitter fast.</string>
+    <string name="hint_reward_title">Hint belønning</string>
+    <string name="hint_reward_text">Du kan få tips ved å se en kort video når du går tom for dem.</string>
+    <string name="leaderboards_achievements_title">Prestasjoner &amp; poengoversikter</string>
+    <string name="leaderboards_achievements_text">Logg på Google Play-tjenester for å se hvor godt du gjør i forhold til dine venner og resten av verden.</string>
+    <string name="gpg_sign_in_out_title">Logg inn og ut</string>
+    <string name="gpg_sing_in_out_text">Du kan logge på og logge ut med det tilhørende alternativet i innstillingene.</string>
+    <string name="not_signed_in">Ikke logget inn</string>
+    <string name="sign_in_to_submit">Logg inn for å sende fremgangen din</string>
+    <string name="no_connection">Ingen forbindelse</string>
+    <string name="extremely_easy">Ekstremt Lett</string>
+</resources>

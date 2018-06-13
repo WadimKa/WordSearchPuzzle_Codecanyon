@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wortsuche</string>
+
+
+    <string name="pref_title_language">Sprache</string>
+
+    <string name="rta_dialog_title">Bewerte diese App</string>
+    <string name="rta_dialog_message">Wenn dir diese App gefällt, nimm dir doch einen Moment Zeit und bewerte sie. Danke für deine Unterstützung!</string>
+    <string name="rta_dialog_ok">Jetzt bewerten</string>
+    <string name="rta_dialog_cancel">Später</string>
+    <string name="rta_dialog_no">Nein, Danke</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="well_done">Glückwünsche!</string>
+
+    <string name="change_language">Sprache ändern?</string>
+    <string name="difficult">Schwer</string>
+    <string name="difficulty">Schwierigkeit</string>
+    <string name="easy">Einfach</string>
+    <string name="ext_difficult">Extrem Schwierig</string>
+    <string name="grid">Gitter</string>
+    <string name="home">Zuhause</string>
+    <string name="marquee">Schiebepunkte</string>
+    <string name="medium">Mittel</string>
+    <string name="night_mode">Nacht-Modus</string>
+    <string name="no">Nein</string>
+    <string name="paused">Pausiert</string>
+    <string name="play">Spielen</string>
+    <string name="play_again">Spiel Nochmal</string>
+    <string name="pret_difficult">Übermäßig Schwierig</string>
+    <string name="restart">Neustart</string>
+    <string name="resume">Fortsetzen</string>
+    <string name="reward_text">Sehen sie sich ein video an, um 3 hinweise zu erhalten?</string>
+    <string name="sound">Klingen</string>
+    <string name="sup_difficult">Höchst Schwierig</string>
+    <string name="very_difficult">Sehr Schwierig</string>
+    <string name="very_easy">Sehr Leicht</string>
+    <string name="watch_video">Video Ansehen</string>
+    <string name="yes">Ja</string>
+    <string name="letter_anim">Buchstabe Animation</string>
+    <string name="num_cols_label">Anzahl der Wortspalten</string>
+    <string name="time_mode_title">Zeitlimit</string>
+    <string name="time_limited_option">Zeitbegrenzt</string>
+    <string name="no_time_limit_option">Keine Zeitbegrenzung</string>
+    <string name="time_is_up">Die zeit ist abgelaufen</string>
+    <string name="continue_playing">Weiterspielen?</string>
+    <string name="retry">Wiederholen</string>
+    <string name="gpg_sign_in_label">Anmelden</string>
+    <string name="gpg_sign_out_label">Ausloggen</string>
+    <string name="how_to_play_title">Spielanleitung</string>
+    <string name="how_to_play_text">Finden Sie versteckte wörter im raster horizontal, vertikal oder diagonal.</string>
+    <string name="hints_title">Verwenden Sie hinweise</string>
+    <string name="hints_text">Sie können den ersten buchstaben des nächsten wortes anzeigen, wenn Sie nicht weiterkommen.</string>
+    <string name="hint_reward_title">Hinweis belohnung</string>
+    <string name="hint_reward_text">Sie können sich tipps verdienen, indem Sie sich ein kurzes video ansehen, wenn Sie keine zeit mehr haben.</string>
+    <string name="leaderboards_achievements_title">Erfolge &amp; bestenlisten</string>
+    <string name="leaderboards_achievements_text">Melde dich bei Google Play Services an, um zu sehen, wie gut du dich im vergleich zu deinen freunden und dem rest der welt verhältst.</string>
+    <string name="gpg_sign_in_out_title">An- und abmelden</string>
+    <string name="gpg_sing_in_out_text">Sie können sich mit der entsprechenden option in den einstellungen anmelden und abmelden.</string>
+    <string name="not_signed_in">Nicht eingeloggt</string>
+    <string name="sign_in_to_submit">Melde dich an, um deinen Fortschritt zu senden</string>
+    <string name="no_connection">Keine Verbindung</string>
+    <string name="extremely_easy">Extrem Einfach</string>
+</resources>

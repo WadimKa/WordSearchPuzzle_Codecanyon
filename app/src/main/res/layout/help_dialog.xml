@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_inner"
+        android:layout_width="@dimen/time_fin_dialog_width"
+        android:layout_height="@dimen/help_dialog_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/help_dots_margin_bottom"
+            android:padding="6dp"
+            attrs:piv_padding="6dp"
+            attrs:piv_radius="@dimen/viewpager_dot_radius" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

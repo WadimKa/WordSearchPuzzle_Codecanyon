@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск Слова</string>
+
+    <string name="pref_title_language">язык</string>
+
+    <string name="settings">настройки</string>
+    <string name="well_done">Поздравления!</string>
+    <string name="rta_dialog_title">Оцените приложение</string>
+    <string name="rta_dialog_message">Если вам понравилось это приложение, пожалуйста, найдите время, чтобы оценить его. Это не займет больше минуты. Спасибо за вашу поддержку!</string>
+    <string name="rta_dialog_ok">Estimate</string>
+    <string name="rta_dialog_cancel">Позже</string>
+    <string name="rta_dialog_no">Нет, спасибо</string>
+    <string name="change_language">Изменение языка?</string>
+    <string name="difficult">Сложно</string>
+    <string name="difficulty">трудность</string>
+    <string name="easy">Легко</string>
+    <string name="ext_difficult">Чрезвычайно сложно</string>
+    <string name="grid">Cетка</string>
+    <string name="home">Главная</string>
+    <string name="marquee">Скользящие точки</string>
+    <string name="medium">средний</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="no">нет</string>
+    <string name="paused">Приостановлена</string>
+    <string name="play">Играть</string>
+    <string name="play_again">Играть снова</string>
+    <string name="pret_difficult">Чрезмерно сложно</string>
+    <string name="restart">Перезапуск</string>
+    <string name="resume">Продолжать</string>
+    <string name="reward_text">Посмотрите видео, чтобы получить 3 подсказки?</string>
+    <string name="sound">звук</string>
+    <string name="sup_difficult">В высшей степени сложный</string>
+    <string name="very_difficult">Очень сложно</string>
+    <string name="very_easy">Очень просто</string>
+    <string name="watch_video">Смотреть видео</string>
+    <string name="yes">да</string>
+    <string name="letter_anim">письмо анимации</string>
+    <string name="num_cols_label">Количество Cтолбцов Cлов</string>
+    <string name="time_mode_title">Лимит времени</string>
+    <string name="time_limited_option">Время ограничено</string>
+    <string name="no_time_limit_option">Без ограничения по времени</string>
+    <string name="time_is_up">Время закончено</string>
+    <string name="continue_playing">Продолжить игру?</string>
+    <string name="retry">Retry</string>
+    <string name="gpg_sign_in_label">войти в систему</string>
+    <string name="gpg_sign_out_label">выход</string>
+    <string name="how_to_play_title">Как играть</string>
+    <string name="how_to_play_text">Найти скрытые слова в сетке по горизонтали, по вертикали или по диагонали.</string>
+    <string name="hints_title">Использовать подсказки</string>
+    <string name="hints_text">Вы можете открыть первую букву следующего слова, когда вы застряли.</string>
+    <string name="hint_reward_title">Подсказка</string>
+    <string name="hint_reward_text">Вы можете заработать подсказки, просмотрев короткое видео, когда вы исчерпаете их.</string>
+    <string name="leaderboards_achievements_title">Достижения и списки лидеров</string>
+    <string name="leaderboards_achievements_text">Войдите в Службы Google Play, чтобы узнать, насколько хорошо вы это делаете, по сравнению с вашими друзьями и остальным миром.</string>
+    <string name="gpg_sign_in_out_title">Вход и выход</string>
+    <string name="gpg_sing_in_out_text">Вы можете войти и выйти из соответствующей опции в настройках.</string>
+    <string name="not_signed_in">Не подписан</string>
+    <string name="sign_in_to_submit">Войдите, чтобы отправить свой прогресс</string>
+    <string name="no_connection">Нет соединения</string>
+    <string name="extremely_easy">Чрезвычайно легко</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sanahaku</string>
+
+
+
+    <string name="pref_title_language">Kieli</string>
+
+
+    <string name="rta_dialog_title">Arvostele sovellus</string>
+    <string name="rta_dialog_message">Jos tykkäät sovelluksesta, ole hyvä ja arvostelese? Kiitos tuestasi!</string>
+    <string name="rta_dialog_ok">Arvostele</string>
+    <string name="rta_dialog_cancel">Myöhemmin</string>
+    <string name="rta_dialog_no">Ei kiitos</string>
+
+
+
+    <string name="settings">Asetukset</string>
+    <string name="well_done">Onneksi olkoon!</string>
+
+    <string name="change_language">Vaihda Kieltä?</string>
+    <string name="difficult">Vaikea</string>
+    <string name="difficulty">Vaikeus</string>
+    <string name="easy">Helppo</string>
+    <string name="ext_difficult">Erittäin Vaikea</string>
+    <string name="grid">Ruudukko</string>
+    <string name="home">Koti</string>
+    <string name="marquee">Liukuvat Pisteet</string>
+    <string name="medium">Keskikokoinen</string>
+    <string name="night_mode">Yötila</string>
+    <string name="no">Ei</string>
+    <string name="paused">Keskeytetty</string>
+    <string name="play">Pelata</string>
+    <string name="play_again">Pelaa Uudestaan</string>
+    <string name="pret_difficult">Liian Vaikea</string>
+    <string name="restart">Uudelleenkäynnistää</string>
+    <string name="resume">Jatkaa</string>
+    <string name="reward_text">Katso video saada 3 vinkkejä?</string>
+    <string name="sound">Ääni</string>
+    <string name="sup_difficult">Äärimmäisen Vaikea</string>
+    <string name="very_difficult">Hyvin Vaikea</string>
+    <string name="very_easy">Erittäin Helppoa</string>
+    <string name="watch_video">Katso Video</string>
+    <string name="yes">Joo</string>
+    <string name="letter_anim">Kirjain Animaatio</string>
+    <string name="num_cols_label">Sanojen Sarakkeiden Määrä</string>
+    <string name="time_mode_title">Määräaika</string>
+    <string name="time_limited_option">Aika rajoitettu</string>
+    <string name="no_time_limit_option">Ei määräaikaa</string>
+    <string name="time_is_up">Aika päättyi</string>
+    <string name="continue_playing">Jatka pelaamista?</string>
+    <string name="retry">yritä uudelleen</string>
+    <string name="gpg_sign_in_label">Kirjaudu Sisään</string>
+    <string name="gpg_sign_out_label">Kirjaudu Ulos</string>
+    <string name="how_to_play_title">Kuinka pelata</string>
+    <string name="how_to_play_text">Etsi piilotetut sanat ruudukossa vaakasuoraan, pystysuoraan tai vinosti.</string>
+    <string name="hints_title">Käytä vihjeitä</string>
+    <string name="hints_text">Voit paljastaa seuraavan sanan ensimmäisen kirjaimen, kun olet juuttunut.</string>
+    <string name="hint_reward_title">Vihje palkita</string>
+    <string name="hint_reward_text">Voit ansaita vihjeitä katsomalla lyhyttä videota, kun poistat niistä.</string>
+    <string name="leaderboards_achievements_title">Saavutukset &amp; tulostaulukot</string>
+    <string name="leaderboards_achievements_text">Kirjaudu Google Play -palveluihin, niin näet, kuinka hyvin teet, verrattuna ystäviin ja muuhun maailmaan.</string>
+    <string name="gpg_sign_in_out_title">Kirjaudu sisään ja ulos</string>
+    <string name="gpg_sing_in_out_text">Voit kirjautua sisään ja kirjautua ulos asetuksella.</string>
+    <string name="not_signed_in">Et ole kirjautunut sisään</string>
+    <string name="sign_in_to_submit">Kirjaudu sisään lähettämään edistymisesi</string>
+    <string name="no_connection">Ei yhteyttä</string>
+    <string name="extremely_easy">Äärimmäisen Helppo</string>
+</resources>

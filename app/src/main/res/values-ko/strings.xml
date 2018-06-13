@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">단어 검색</string>
+
+    <string name="rta_dialog_title">앱 평가하기</string>
+    <string name="rta_dialog_message">이 앱이 만족스럽다면 평가를 부탁드립니다. 일분도 걸리지 않아요. 지원에 감사합니다. </string>
+    <string name="rta_dialog_ok">지금 평가하기</string>
+    <string name="rta_dialog_cancel">나중에 할게요</string>
+    <string name="rta_dialog_no">안 할래요</string>
+
+    <string name="change_language">언어를 변경 하시겠습니까?</string>
+    <string name="difficult">어려운</string>
+    <string name="difficulty">어려움</string>
+    <string name="easy">쉬운</string>
+    <string name="ext_difficult">극도로 어려운</string>
+    <string name="grid">그리드</string>
+    <string name="home">집</string>
+    <string name="marquee">슬라이딩 점</string>
+    <string name="medium">매질</string>
+    <string name="night_mode">야간 모드</string>
+    <string name="no">아니</string>
+    <string name="paused">일시 중지됨</string>
+    <string name="play">놀이</string>
+    <string name="play_again">다시 재생</string>
+    <string name="pref_title_language">언어</string>
+    <string name="pret_difficult">지나치게 어렵다.</string>
+    <string name="restart">재시작</string>
+    <string name="resume">잇다</string>
+    <string name="reward_text">비디오를보고 3 가지 힌트를 얻으시겠습니까?</string>
+    <string name="settings">설정</string>
+    <string name="sound">소리</string>
+    <string name="sup_difficult">엄청나게 어려운</string>
+    <string name="very_difficult">매우 어렵다</string>
+    <string name="very_easy">아주 쉽게</string>
+    <string name="watch_video">비디오보기</string>
+    <string name="well_done">치하!</string>
+    <string name="yes">예</string>
+    <string name="letter_anim">편지 애니메이션</string>
+    <string name="num_cols_label">단어 열 수</string>
+    <string name="time_mode_title">시간 제한</string>
+    <string name="time_limited_option">시간 제한</string>
+    <string name="no_time_limit_option">제한 시간 없음</string>
+    <string name="time_is_up">시간 완료</string>
+    <string name="continue_playing">계속 놀아?</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="gpg_sign_in_label">로그인</string>
+    <string name="gpg_sign_out_label">로그 아웃</string>
+    <string name="how_to_play_title">게임 방법</string>
+    <string name="how_to_play_text">눈금에서 가로, 세로 또는 대각선으로 숨겨진 단어를 찾습니다.</string>
+    <string name="hints_title">힌트 사용</string>
+    <string name="hints_text">당신이 붙어있을 때 다음 단어의 첫 글자를 나타낼 수 있습니다.</string>
+    <string name="hint_reward_title">힌트 보상</string>
+    <string name="hint_reward_text">짧은 비디오를 다 썼을 때 힌트를 얻을 수 있습니다.</string>
+    <string name="leaderboards_achievements_title">업적 및 리더 보드</string>
+    <string name="leaderboards_achievements_text">Google Play 서비스에 로그인하여 친구 및 전 세계 다른 국가와 비교하여 얼마나 잘하고 있는지 확인하세요.</string>
+    <string name="gpg_sign_in_out_title">로그인 및 로그 아웃</string>
+    <string name="gpg_sing_in_out_text">설정에서 관련 옵션을 사용하여 로그인하고 로그 아웃 할 수 있습니다.</string>
+    <string name="not_signed_in">로그인하지 않았습니다.</string>
+    <string name="sign_in_to_submit">진행 상황을 보내려면 로그인하십시오.</string>
+    <string name="no_connection">연결 없음</string>
+    <string name="extremely_easy">극단적으로 쉽다.</string>
+</resources>

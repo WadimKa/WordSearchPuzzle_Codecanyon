@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kelime Avı</string>
+
+
+    <string name="pref_title_language">Dil</string>
+
+    <string name="rta_dialog_title">Bu uygulamaya puan verin</string>
+    <string name="rta_dialog_message">Eğer uygulamamızdan memnun kaldıysanız, lütfen birkaç saniyenizi ayırarak bize puan verin. Desteğiniz için teşekkürler!</string>
+    <string name="rta_dialog_ok">Puan ver</string>
+    <string name="rta_dialog_cancel">Sonra hatırlat</string>
+    <string name="rta_dialog_no">Hayır</string>
+    <string name="settings">Ayarlar</string>
+    <string name="well_done">Tebrikler!</string>
+    <string name="change_language">Dil Değişsin mi?</string>
+    <string name="difficult">Zor</string>
+    <string name="difficulty">Zorluk</string>
+    <string name="easy">Kolay</string>
+    <string name="ext_difficult">Aşırı Zor</string>
+    <string name="grid">Izgara</string>
+    <string name="home">Başa Dön</string>
+    <string name="marquee">Kayan Çizgiler</string>
+    <string name="medium">Orta</string>
+    <string name="night_mode">Gece Modu</string>
+    <string name="no">Hayır</string>
+    <string name="paused">Duraklatıldı</string>
+    <string name="play">Oyna</string>
+    <string name="play_again">Tekrar Oyna</string>
+    <string name="pret_difficult">İnanılmaz Zor</string>
+    <string name="restart">Tekrarla</string>
+    <string name="resume">Devam Et</string>
+    <string name="reward_text">Kısa bir video izleyerek 3 ipucu kazanmak ister misiniz?</string>
+    <string name="sound">Ses</string>
+    <string name="sup_difficult">Akıl Almaz Zor</string>
+    <string name="very_difficult">Çok Zor</string>
+    <string name="very_easy">Çok Kolay</string>
+    <string name="watch_video">Videoyu İzle</string>
+    <string name="yes">Evet</string>
+    <string name="letter_anim">Harf Animasyonu</string>
+    <string name="num_cols_label">Kelime Sütunu Sayısı</string>
+    <string name="time_mode_title">Zaman Sınırı</string>
+    <string name="time_limited_option">Sınırlı zaman</string>
+    <string name="no_time_limit_option">Sınırsız zaman</string>
+    <string name="time_is_up">Süre doldu!</string>
+    <string name="continue_playing">Devam et?</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="gpg_sign_in_label">Giriş Yap</string>
+    <string name="gpg_sign_out_label">Çıkış Yap</string>
+    <string name="how_to_play_title">Nasıl oynanır</string>
+    <string name="how_to_play_text">Yatay, dikey veya diagonal şekile gizlenmiş kelimeleri bulun.</string>
+    <string name="hints_title">İpucu kullanın</string>
+    <string name="hints_text">Takıldığınızda bir sonraki kelimenin ilk harfini açabilirsiniz.</string>
+    <string name="hint_reward_title">İpucu ödülü</string>
+    <string name="hint_reward_text">İpucunuz bittiğinde kısa bir video izleyerek daha fazla ipucu kazanabilirsiniz.</string>
+    <string name="leaderboards_achievements_title">Başarı ve puan tabloları</string>
+    <string name="leaderboards_achievements_text">Google Play hizmetlerine bağlanarak arkadaşlarınız ve diğerleriyle kendinizi mukayese edebilirsiniz.</string>
+    <string name="gpg_sign_in_out_title">Giriş ve çıkış yap</string>
+    <string name="gpg_sing_in_out_text">Ayarlar kısmında giriş ve çıkış yapabilirsiniz.</string>
+    <string name="not_signed_in">Giriş yapılmadı</string>
+    <string name="sign_in_to_submit">İlerleme verinizi göndermek için giriş yapınız</string>
+    <string name="no_connection">Bağlantı yok</string>
+    <string name="extremely_easy">Aşırı Kolay</string>
+
+</resources>

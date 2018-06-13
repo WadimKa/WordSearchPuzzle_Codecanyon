@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ordsökning</string>
+
+    <string name="pref_title_language">Språk</string>
+
+    <string name="settings">Inställningar</string>
+    <string name="well_done">Grattis!</string>
+    <string name="rta_dialog_title">Betygsätt appen</string>
+    <string name="rta_dialog_message">Om du gillar denna app, sätt gärna betyg på den. Det tar inte mer än ett ögonblick. Tack för ditt stöd!</string>
+    <string name="rta_dialog_ok">Betygsätt nu</string>
+    <string name="rta_dialog_cancel">Senare</string>
+    <string name="rta_dialog_no">Nej, tack</string>
+    <string name="change_language">Ändra språk?</string>
+    <string name="difficult">Svår</string>
+    <string name="difficulty">Svårighet</string>
+    <string name="easy">Lätt</string>
+    <string name="ext_difficult">Extremt Svårt</string>
+    <string name="grid">Rutnät</string>
+    <string name="home">Hem</string>
+    <string name="marquee">Glidande Prickar</string>
+    <string name="medium">Medium</string>
+    <string name="night_mode">Nattläge</string>
+    <string name="no">Nej</string>
+    <string name="paused">Pausad</string>
+    <string name="play">Spela</string>
+    <string name="play_again">Spela igen</string>
+    <string name="pret_difficult">För Mycket Svårt</string>
+    <string name="restart">Omstart</string>
+    <string name="resume">Fortsätta</string>
+    <string name="reward_text">Titta på en video för att få 3 tips?</string>
+    <string name="sound">Ljud</string>
+    <string name="sup_difficult">Högst Svårt</string>
+    <string name="very_difficult">Mycket Svårt</string>
+    <string name="very_easy">Väldigt Lätt</string>
+    <string name="watch_video">Kolla på Video</string>
+    <string name="yes">Ja</string>
+    <string name="letter_anim">Brev Animation</string>
+    <string name="num_cols_label">Antal Ordkolumner</string>
+    <string name="time_mode_title">Tidsgräns</string>
+    <string name="time_limited_option">Tidsbegränsad</string>
+    <string name="no_time_limit_option">Ingen tidsbegränsning</string>
+    <string name="time_is_up">Tiden är ute!</string>
+    <string name="continue_playing">Fortsätt spela?</string>
+    <string name="retry">Försök igen</string>
+    <string name="gpg_sign_in_label">Logga In</string>
+    <string name="gpg_sign_out_label">Logga Ut</string>
+    <string name="how_to_play_title">Hur man spelar</string>
+    <string name="how_to_play_text">Hitta dolda ord i rutnätet horisontellt, vertikalt eller diagonalt.</string>
+    <string name="hints_title">Använd tips</string>
+    <string name="hints_text">Du kan avslöja första bokstaven i nästa ord när du fastnar.</string>
+    <string name="hint_reward_title">Hint belöning</string>
+    <string name="hint_reward_text">Du kan tjäna tips genom att titta på en kort video när du slutar använda dem.</string>
+    <string name="leaderboards_achievements_title">Prestationer &amp; topplistor</string>
+    <string name="leaderboards_achievements_text">Logga in på Google Play Services för att se hur bra du gör jämfört med dina vänner och resten av världen.</string>
+    <string name="gpg_sign_in_out_title">Logga in och ut</string>
+    <string name="gpg_sing_in_out_text">Du kan logga in och logga ut med det relaterade alternativet i inställningarna.</string>
+    <string name="not_signed_in">Inte inloggad</string>
+    <string name="sign_in_to_submit">Logga in för att skicka dina framsteg</string>
+    <string name="no_connection">Ingen förbindelse</string>
+    <string name="extremely_easy">Extremt Lätt</string>
+</resources>

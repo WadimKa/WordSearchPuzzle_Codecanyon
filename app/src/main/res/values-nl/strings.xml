@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Woorden Zoeken</string>
+
+    <string name="pref_title_language">Taal</string>
+
+    <string name="settings">Instellingen</string>
+    <string name="well_done">Gefeliciteerd!</string>
+    <string name="rta_dialog_title">Beoordeel de app</string>
+    <string name="rta_dialog_message">We vinden uw mening belangrijk. Als u tevreden bent over onze app dan stellen wij het op prijs als u dat met andere gebruikers wilt delen. Het beoordelen kost minder dan 1 minuut. Bedankt voor uw ondersteuning!</string>
+    <string name="rta_dialog_ok">Beoordeel Nu</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_no">Nee, Bedankt</string>
+    <string name="change_language">Verander taal?</string>
+    <string name="difficult">Moeilijk</string>
+    <string name="difficulty">Moeilijkheid</string>
+    <string name="easy">Gemakkelijk</string>
+    <string name="ext_difficult">Extreem Moeilijk</string>
+    <string name="grid">Rooster</string>
+    <string name="home">Huis</string>
+    <string name="marquee">Schuifpunten</string>
+    <string name="medium">Medium</string>
+    <string name="night_mode">Nachtstand</string>
+    <string name="no">Nee</string>
+    <string name="paused">Onderbroken</string>
+    <string name="play">Spelen</string>
+    <string name="play_again">Speel Opnieuw</string>
+    <string name="pret_difficult">Overmatig Moeilijk</string>
+    <string name="restart">Herstarten</string>
+    <string name="resume">Voortzetten</string>
+    <string name="reward_text">Bekijk een video om 3 tips te krijgen?</string>
+    <string name="sound">Geluid</string>
+    <string name="sup_difficult">Zeer Moeilijk</string>
+    <string name="very_difficult">Erg Moeilijk</string>
+    <string name="very_easy">Erg Makkelijk</string>
+    <string name="watch_video">Bekijk Video</string>
+    <string name="yes">Ja</string>
+    <string name="letter_anim">Letter Animatie</string>
+    <string name="num_cols_label">Aantal Woordkolommen</string>
+    <string name="time_mode_title">Tijdslimiet</string>
+    <string name="time_limited_option">Beperkte tijd</string>
+    <string name="no_time_limit_option">Geen tijd limiet</string>
+    <string name="time_is_up">De tijd is klaar!</string>
+    <string name="continue_playing">Blijf spelen?</string>
+    <string name="retry">opnieuw proberen</string>
+    <string name="gpg_sign_in_label">Aanmelden</string>
+    <string name="gpg_sign_out_label">Afmelden</string>
+    <string name="how_to_play_title">Hoe te spelen</string>
+    <string name="how_to_play_text">Vind verborgen woorden in het raster horizontaal, verticaal of diagonaal.</string>
+    <string name="hints_title">Gebruik hints</string>
+    <string name="hints_text">Je kunt de eerste letter van het volgende woord onthullen als je vastzit.</string>
+    <string name="hint_reward_title">Hint beloning</string>
+    <string name="hint_reward_text">Je kunt hints verdienen door een korte video te bekijken als je geen voorraad meer hebt.</string>
+    <string name="leaderboards_achievements_title">Prestaties &amp; scoreborden</string>
+    <string name="leaderboards_achievements_text">Log in bij Google Play-services om te zien hoe goed u presteert in vergelijking met uw vrienden en de rest van de wereld.</string>
+    <string name="gpg_sign_in_out_title">Log in en uit</string>
+    <string name="gpg_sing_in_out_text">U kunt zich aanmelden en uitloggen met de bijbehorende optie in de instellingen.</string>
+    <string name="not_signed_in">Niet ingeschreven</string>
+    <string name="sign_in_to_submit">Meld u aan om uw voortgang te verzenden</string>
+    <string name="no_connection">Geen connectie</string>
+    <string name="extremely_easy">Extreem Makkelijk</string>
+</resources>

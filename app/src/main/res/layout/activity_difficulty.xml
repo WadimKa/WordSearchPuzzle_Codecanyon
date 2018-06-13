@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+
+
+
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_2_container">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/extremely_easy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+                    <TextView
+                        android:id="@+id/g0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="5x5"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/extremely_easy_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:minHeight="0dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g0"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/very_easy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+                    <TextView
+                        android:id="@+id/g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="6x6"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/very_easy_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:minHeight="0dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g1"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/easy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+                    <TextView
+                        android:id="@+id/g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="8x8"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/easy_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g2"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+                    <TextView
+                        android:id="@+id/g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="10x10"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/medium_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g3"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/difficult"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+                    <TextView
+                        android:id="@+id/g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="12x12"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/difficult_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g4"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/very_difficult"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+
+                    <TextView
+                        android:id="@+id/g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="14x14"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/very_difficult_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g5"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/pret_difficult"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+
+                    <TextView
+                        android:id="@+id/g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="16x16"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/pret_difficult_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g6"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/ext_difficult"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+
+                    <TextView
+                        android:id="@+id/g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="18x18"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/ext_difficult_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g7"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/sup_difficult"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:clickable="true"
+                    android:soundEffectsEnabled="false">
+
+
+                    <TextView
+                        android:id="@+id/g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="20x20"
+                        android:textSize="@dimen/diff_icon_text_size"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/sup_difficult_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/g8"
+                        android:textSize="@dimen/diff_text_size" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/title_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_separator_top_margin"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="@dimen/diff_title_left_margin"
+            android:textSize="@dimen/diff_title_text_size"/>
+
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/title_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_top_panel_height"
+        android:layout_below="@+id/title_box">
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/back_arrow_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/diff_arrow_margin_left"
+            android:background="@android:color/transparent"
+            android:soundEffectsEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/diff_title_2_size" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

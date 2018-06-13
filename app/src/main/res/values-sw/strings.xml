@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Neno Kati</string>
+
+    <string name="pref_title_language">Lugha</string>
+
+    <string name="settings">Mazingira</string>
+    <string name="well_done">Pongezi!</string>
+
+    <string name="change_language">Mabadiliko ya Lugha?</string>
+    <string name="difficult">Ni ngumu</string>
+    <string name="difficulty">Ugumu</string>
+    <string name="easy">Rahisi</string>
+    <string name="ext_difficult">Ni ngumu sana</string>
+    <string name="grid">Gridi</string>
+    <string name="home">Nyumbani</string>
+    <string name="marquee">Mahali</string>
+    <string name="medium">Kati</string>
+    <string name="night_mode">Usiku</string>
+    <string name="no">Hapana</string>
+    <string name="paused">Imesitishwa</string>
+    <string name="play">Kucheza</string>
+    <string name="play_again">Cheza Tena</string>
+    <string name="pret_difficult">Ugumu sana</string>
+    <string name="restart">Anzisha Tena</string>
+    <string name="resume">Kuendelea</string>
+    <string name="reward_text">Tazama video ya kupata 3 vidokezo?</string>
+    <string name="sound">Sauti</string>
+    <string name="sup_difficult">Kubwa Sana</string>
+    <string name="very_difficult">Ngumu Sana</string>
+    <string name="very_easy">Rahisi Sana</string>
+    <string name="watch_video">Tazama Video</string>
+    <string name="yes">Ndiyo</string>
+    <string name="letter_anim">Barua Uhuishaji</string>
+    <string name="rta_dialog_title">Linganisha programu hii</string>
+    <string name="rta_dialog_message">Ikiwa unapenda kutumia programu hii, ingekuwa ungependa kuchukua muda wa kupima? Haitachukua zaidi ya dakika. Ahsante kwa msaada wako!</string>
+    <string name="rta_dialog_ok">Tathmini sasa</string>
+    <string name="rta_dialog_cancel">Baadae</string>
+    <string name="rta_dialog_no">La, shukrani</string>
+    <string name="num_cols_label">Idadi Ya Nguzo Za Neno</string>
+    <string name="time_mode_title">Njia ya Muda</string>
+    <string name="time_limited_option">Muda mdogo</string>
+    <string name="no_time_limit_option">Hakuna kikomo cha wakati</string>
+    <string name="time_is_up">Muda umekamilika</string>
+    <string name="continue_playing">Endelea kucheza?</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="gpg_sign_in_label">Weka Sahihi</string>
+    <string name="gpg_sign_out_label">Toka</string>
+    <string name="how_to_play_title">Jinsi ya kucheza</string>
+    <string name="how_to_play_text">Pata maneno yaliyofichwa kwenye gridi ya moja kwa moja, wima au diagonally.</string>
+    <string name="hints_title">Tumia vidokezo</string>
+    <string name="hints_text">Unaweza kufungua barua ya kwanza ya neno linalofuata unapokwama.</string>
+    <string name="hint_reward_title">Tuma ya malipo</string>
+    <string name="hint_reward_text">Unaweza kupata mawazo kwa kuangalia video fupi unapotoka.</string>
+    <string name="leaderboards_achievements_title">Mafanikio na bodi za kiongozi</string>
+    <string name="leaderboards_achievements_text">Ingia katika Huduma za Google Play ili uone jinsi unavyofanya vizuri kulinganishwa na marafiki zako na wengine duniani.</string>
+    <string name="gpg_sign_in_out_title">Ingia na nje</string>
+    <string name="gpg_sing_in_out_text">Unaweza kuingia na kusaini na chaguo husika katika mipangilio.</string>
+    <string name="not_signed_in">Haijaingia</string>
+    <string name="sign_in_to_submit">Ingia ili kutuma maendeleo yako</string>
+    <string name="no_connection">Hakuna muunganisho</string>
+    <string name="extremely_easy">Kushangaza Rahisi</string>
+</resources>

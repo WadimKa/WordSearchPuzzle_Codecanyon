@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Procura de Palavras</string>
+
+    <string name="pref_title_language">Idioma</string>
+
+    <string name="settings">Definições</string>
+    <string name="well_done">Parabéns!</string>
+    <string name="rta_dialog_title">Qualifique esse Aplicativo</string>
+    <string name="rta_dialog_message">Se você gosta de usar esse aplicativo, se importaria de qualificá-lo? Não irá tomar mais de um minuto. Obrigado pelo o seu apoio.</string>
+    <string name="rta_dialog_ok">Qualificar</string>
+    <string name="rta_dialog_cancel">Depois</string>
+    <string name="rta_dialog_no">Não, obrigado</string>
+    <string name="change_language">Mudar idioma?</string>
+    <string name="difficult">Difícil</string>
+    <string name="difficulty">Dificuldade</string>
+    <string name="easy">Fácil</string>
+    <string name="ext_difficult">Extremamente Difícil</string>
+    <string name="sup_difficult">Sumamente Difícil</string>
+    <string name="grid">Grade</string>
+    <string name="home">Casa</string>
+    <string name="marquee">Pontos Deslizantes</string>
+    <string name="medium">Médio</string>
+    <string name="night_mode">Modo Noturno</string>
+    <string name="no">Não</string>
+    <string name="paused">Pausado</string>
+    <string name="play">Toque</string>
+    <string name="play_again">Jogar de Novo</string>
+    <string name="pret_difficult">Excessivamente Difícil</string>
+    <string name="restart">Reiniciar</string>
+    <string name="resume">Continuar</string>
+    <string name="reward_text">Assista a um vídeo para obter 3 dicas?</string>
+    <string name="sound">Som</string>
+
+    <string name="very_difficult">Muito Difícil</string>
+    <string name="very_easy">Muito Fácil</string>
+    <string name="watch_video">Assista Vídeo</string>
+    <string name="yes">Sim</string>
+    <string name="letter_anim">Animação de Letras</string>
+    <string name="num_cols_label">Número de Colunas de Palavras</string>
+    <string name="time_mode_title">Prazo</string>
+    <string name="time_limited_option">Tempo limitado</string>
+    <string name="no_time_limit_option">Sem limite de tempo</string>
+    <string name="time_is_up">Tempo acabado</string>
+    <string name="continue_playing">Continue jogando?</string>
+    <string name="retry">Repetir</string>
+    <string name="gpg_sign_in_label">assinar Em</string>
+    <string name="gpg_sign_out_label">Sair</string>
+    <string name="how_to_play_title">Como jogar</string>
+    <string name="how_to_play_text">Encontre palavras escondidas na grade horizontalmente, verticalmente ou diagonalmente.</string>
+    <string name="hints_title">Use dicas</string>
+    <string name="hints_text">Você pode revelar a primeira letra da próxima palavra quando estiver preso.</string>
+    <string name="hint_reward_title">Recompensa de sugestão</string>
+    <string name="hint_reward_text">Você pode ganhar sugestões ao assistir um pequeno vídeo quando você acabou com eles.</string>
+    <string name="leaderboards_achievements_title">Conquistas &amp; placeres</string>
+    <string name="leaderboards_achievements_text">Faça login nos Serviços do Google Play para ver o quão bem você está fazendo em comparação com seus amigos e com o resto do mundo.</string>
+    <string name="gpg_sign_in_out_title">Entre e saia</string>
+    <string name="gpg_sing_in_out_text">Você pode fazer login e sair com a opção relacionada nas configurações.</string>
+    <string name="not_signed_in">Não iniciou sessão</string>
+    <string name="sign_in_to_submit">Zaloguj się, aby wysłać swoje postępy</string>
+    <string name="no_connection">Sem conexão</string>
+    <string name="extremely_easy">Extremamente Fácil</string>
+</resources>

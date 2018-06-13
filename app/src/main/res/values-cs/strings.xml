@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slovo Vyhledávání</string>
+
+
+    <string name="pref_title_language">Jazyk</string>
+
+
+
+    <string name="rta_dialog_title">Ohodnotit aplikaci</string>
+    <string name="rta_dialog_message">Pokud se Vám aplikace líbí, rádi bychom Vás poprosili o její ohodnocení. Nezabere to více než minutu. Děkujeme za Vaši podporu!</string>
+    <string name="rta_dialog_ok">Ohodnotit nyní</string>
+    <string name="rta_dialog_cancel">Později</string>
+    <string name="rta_dialog_no">Ne, díky</string>
+
+
+    <string name="settings">Nastavení</string>
+    <string name="well_done">Gratulace!</string>
+
+    <string name="change_language">Změnit jazyk?</string>
+    <string name="difficult">Obtížný</string>
+    <string name="difficulty">Obtížnost</string>
+    <string name="easy">Snadný</string>
+    <string name="ext_difficult">Extrémně Obtížné</string>
+    <string name="grid">Mřížka</string>
+    <string name="home">Domů</string>
+    <string name="marquee">Pontos Deslizantes</string>
+    <string name="medium">Střední</string>
+    <string name="night_mode">Noční Režim</string>
+    <string name="no">Ne</string>
+    <string name="paused">Pozastaveno</string>
+    <string name="play">Hrát si</string>
+    <string name="play_again">Hrát Znovu</string>
+    <string name="pret_difficult">Nadměrně Obtížné</string>
+    <string name="restart">Restartujte</string>
+    <string name="resume">Pokračovat</string>
+    <string name="reward_text">Podívejte se na video a získejte 3 rady?</string>
+    <string name="sound">Zvuk</string>
+    <string name="sup_difficult">Nadmíru Obtížné</string>
+    <string name="very_difficult">Velmi Obtížné</string>
+    <string name="very_easy">Velmi Snadné</string>
+    <string name="watch_video">Sledovat Video</string>
+    <string name="yes">Ano</string>
+    <string name="letter_anim">Letter Animace</string>
+    <string name="num_cols_label">Počet Slovních Sloupců</string>
+    <string name="time_mode_title">Lhůta</string>
+    <string name="time_limited_option">časově omezený</string>
+    <string name="no_time_limit_option">Žádný časový limit</string>
+    <string name="time_is_up">Čas skončil!</string>
+    <string name="continue_playing">Pokračovat v hraní?</string>
+    <string name="retry">Opakujte</string>
+    <string name="gpg_sign_in_label">Přihlásit Se</string>
+    <string name="gpg_sign_out_label">Odhlásit Se</string>
+    <string name="how_to_play_title">Jak hrát</string>
+    <string name="how_to_play_text">Najděte skryté slova v mřížce vodorovně, svisle nebo diagonálně.</string>
+    <string name="hints_title">Použijte rady</string>
+    <string name="hints_text">První písmeno následujícího slova můžete odhalit, když jste uvízli.</string>
+    <string name="hint_reward_title">Odměna tipů</string>
+    <string name="hint_reward_text">Tipy získáte sledováním krátkého videa, když je vyčerpáte.</string>
+    <string name="leaderboards_achievements_title">Úspěchy &amp; žebříčky</string>
+    <string name="leaderboards_achievements_text">Přihlaste se do služby Google Play, abyste zjistili, jak dobře děláte ve srovnání s vašimi přáteli a zbytkem světa.</string>
+    <string name="gpg_sign_in_out_title">Přihlaste se a odhlaste</string>
+    <string name="gpg_sing_in_out_text">Můžete se přihlásit a odhlásit se pomocí příslušné volby v nastavení.</string>
+    <string name="not_signed_in">Nejste přihlášeni</string>
+    <string name="sign_in_to_submit">Přihlaste se, abyste poslali svůj pokrok</string>
+    <string name="no_connection">Žádné připojení</string>
+    <string name="extremely_easy">Extrémně Snadné</string>
+</resources>

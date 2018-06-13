@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.codecanyon.trimax.wordsearch.activity.DifficultyActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/title_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_separator_top_margin"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/settings_btn"
+            android:layout_width="@dimen/menu_settings_btn_size"
+            android:layout_height="@dimen/menu_settings_btn_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:layout_marginRight="@dimen/menu_settings_btn_margin"
+            android:soundEffectsEnabled="false"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="@dimen/diff_title_left_margin"
+            android:textSize="@dimen/diff_title_text_size"
+            android:textStyle="bold"/>
+
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/title_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_top_panel_height"
+        android:layout_below="@+id/title_box">
+
+
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/back_arrow_size"
+            android:layout_marginLeft="@dimen/diff_arrow_margin_left"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:soundEffectsEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/diff_title_2_size"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_2_container"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/resume_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/diff_top_panel_height"
+
+            android:clickable="true"
+            android:soundEffectsEnabled="false">
+
+
+
+
+            <ImageView
+                android:id="@+id/ic1"
+                android:layout_width="@dimen/diff_icon_size"
+                android:layout_height="@dimen/diff_icon_size"
+                android:scaleType="centerInside"
+                android:padding="@dimen/pause_menu_icon_padding"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+            <TextView
+                android:id="@+id/resume"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ic1"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/diff_text_size"
+                android:layout_marginLeft="@dimen/diff_text_margin_left"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/restart_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/diff_top_panel_height"
+            android:layout_marginTop="1dp"
+            android:clickable="true"
+            android:soundEffectsEnabled="false">
+
+
+
+            <ImageView
+                android:id="@+id/ic2"
+                android:layout_width="@dimen/diff_icon_size"
+                android:layout_height="@dimen/diff_icon_size"
+                android:scaleType="centerInside"
+                android:padding="@dimen/pause_menu_icon_padding"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+            <TextView
+                android:id="@+id/restart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ic2"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/diff_text_size"
+                android:layout_marginLeft="@dimen/diff_text_margin_left"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/home_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/diff_top_panel_height"
+            android:layout_marginTop="1dp"
+
+            android:clickable="true"
+            android:soundEffectsEnabled="false">
+
+
+
+            <ImageView
+                android:id="@+id/ic3"
+                android:layout_width="@dimen/diff_icon_size"
+                android:layout_height="@dimen/diff_icon_size"
+                android:scaleType="centerInside"
+                android:padding="@dimen/pause_menu_icon_padding"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+            <TextView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ic3"
+                android:padding="0dp"
+                android:includeFontPadding="false"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/diff_text_size"
+                android:layout_marginLeft="@dimen/diff_text_margin_left"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

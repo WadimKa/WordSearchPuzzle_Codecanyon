@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context="net.codecanyon.trimax.wordsearch.activity.DifficultyActivity">
+
+    <View
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg"
+        android:visibility="invisible" />
+
+
+    <View
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_n"
+        android:visibility="invisible" />
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_2_container">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/language"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/lang_icon_small"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/lang_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid0"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+
+                    <TextView
+                        android:id="@+id/lang_value"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:background="@drawable/round_stroke"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/diff_btn_up"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/num_cols_option_text_size"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/sound_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/sound_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid1"
+                        android:layout_toLeftOf="@+id/soundDot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/soundDot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/night_mode_icon_small"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+                    <TextView
+                        android:id="@+id/mode_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid2"
+                        android:layout_toLeftOf="@+id/modeDot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/modeDot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/grid4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/grid_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/grid_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid4"
+                        android:layout_toLeftOf="@+id/gridDot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/gridDot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/marquee"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/marquee_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/marquee_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid5"
+                        android:layout_toLeftOf="@+id/marqueeDot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/marqueeDot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/letter_anim"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/letter_anim_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/letter_anim_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid6"
+                        android:layout_toLeftOf="@+id/letterAnimDot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/letterAnimDot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/num_cols"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/num_cols_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/num_cols_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid66"
+                        android:layout_toLeftOf="@+id/num_cols_value"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+
+
+                    <TextView
+                        android:id="@+id/num_cols_value"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:background="@drawable/round_stroke"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/diff_btn_up"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/num_cols_option_text_size"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sign_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_bg_white"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/g_small"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/sign_out_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid7"
+                        android:layout_toLeftOf="@+id/sign_out_dot"
+                        android:textColor="#4e391a"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/sign_out_dot"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/secondary_color_darker"
+                        app:color_tick="@color/diff_btn_up"
+                        app:color_unchecked="@color/secondary_color"
+                        app:color_unchecked_stroke="@color/app_bg"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--   XXXXXXXXXXXXXXXXXXXXXXX -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/language_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid0_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/lang_icon_small_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+                    <TextView
+                        android:id="@+id/lang_title_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid0_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <TextView
+                        android:id="@+id/lang_value_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:background="@drawable/round_stroke_n"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/text_color_n"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/num_cols_option_text_size"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sound_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid1_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/sound_icon_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/sound_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid1_n"
+                        android:layout_toLeftOf="@+id/soundDot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/soundDot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mode_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid2_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/night_mode_icon_small_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+                    <TextView
+                        android:id="@+id/mode_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid2_n"
+                        android:layout_toLeftOf="@+id/modeDot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/modeDot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/grid_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+
+
+                    <ImageView
+                        android:id="@+id/grid4_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/grid_icon_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+                    <TextView
+                        android:id="@+id/grid_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid4_n"
+                        android:layout_toLeftOf="@+id/gridDot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/gridDot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/marquee_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid5_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/marquee_icon_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+                    <TextView
+                        android:id="@+id/marquee_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid5_n"
+                        android:layout_toLeftOf="@+id/marqueeDot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/marqueeDot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/letter_anim_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid6_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/letter_anim_icon_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/letter_anim_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid6_n"
+                        android:layout_toLeftOf="@+id/letterAnimDot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/letterAnimDot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/num_cols_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid66_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_icon_bg_n"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/num_cols_icon_n"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+                    <TextView
+                        android:id="@+id/num_cols_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid66_n"
+                        android:layout_toLeftOf="@+id/num_cols_value_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <TextView
+                        android:id="@+id/num_cols_value_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:background="@drawable/round_stroke_n"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textColor="@color/text_color_n"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/num_cols_option_text_size"/>
+
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/sign_out_n"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/diff_top_panel_height"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/btn_difficulty_selector_n"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:soundEffectsEnabled="false">
+
+                    <ImageView
+                        android:id="@+id/grid7_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/diff_bg_grey"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/g_small"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/diff_arrow_margin_left"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/sign_out_txt_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/diff_text_margin_left"
+                        android:layout_toRightOf="@+id/grid7_n"
+                        android:layout_toLeftOf="@+id/sign_out_dot_n"
+                        android:textColor="@color/text_color_n"
+                        android:textSize="@dimen/diff_text_size" />
+
+                    <cn.refactor.library.SmoothCheckBox
+                        android:id="@+id/sign_out_dot_n"
+                        android:layout_width="@dimen/config_item_checkbox_size"
+                        android:layout_height="@dimen/config_item_checkbox_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/diff_arrow_margin_left"
+                        app:color_checked="@color/stripe_n"
+                        app:color_tick="@color/text_color_n"
+                        app:color_unchecked="@color/secondary_color_n"
+                        app:color_unchecked_stroke="@color/app_bg_n"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/title_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_separator_top_margin"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:textColor="@color/diff_title"
+            android:textSize="@dimen/diff_title_text_size"
+            android:layout_marginLeft="@dimen/diff_title_left_margin"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/title_n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:textColor="@color/text_color_n"
+            android:textSize="@dimen/diff_title_text_size"
+            android:layout_marginLeft="@dimen/diff_title_left_margin"
+            android:visibility="invisible" />
+
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/separator_n"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/stripe_n"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/title_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diff_top_panel_height"
+        android:layout_below="@+id/title_box">
+
+        <View
+            android:id="@+id/title_2_cont"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/secondary_color"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/title_2_cont_n"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/secondary_color_n"
+            android:visibility="invisible" />
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/back_arrow_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/diff_arrow_margin_left"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrow_left"
+            android:visibility="invisible"
+            android:soundEffectsEnabled="false"/>
+
+        <ImageButton
+            android:id="@+id/back_n"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/back_arrow_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/diff_arrow_margin_left"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrow_left_n"
+            android:visibility="invisible"
+            android:soundEffectsEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/diff_title_2_size"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/title_2_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/text_color_n"
+            android:textSize="@dimen/diff_title_2_size"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <!--include layout="@layout/confirm_layout" /-->
+
+    <FrameLayout
+        android:id="@+id/gps_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

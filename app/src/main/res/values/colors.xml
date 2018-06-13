@@ -1,0 +1,48 @@
+<resources>
+    <color name="app_bg">#eee0b5</color>
+    <color name="light_brown_text">#f5e6b8</color>
+    <color name="black">#000000</color>
+    <color name="stripe">#FFFFFF</color>
+    <color name="text_color">#463a2a</color>
+    <color name="home_title">@color/secondary_color_dark</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="grid_letter_color">@color/secondary_color_darker</color>
+
+    <color name="play_btn">#545c89</color>
+    <color name="paused_menu_btn_down">#d6bf9d</color>
+    <color name="secondary_color">#93774e</color>
+    <color name="secondary_color_dark">#675232</color>
+    <color name="secondary_color_darker">#5c482a</color>
+
+    <color name="pause_btn_color">#4e391a</color>
+
+    <color name="diff_title">@color/home_title</color>
+    <color name="diff_btn_up">#fff7df</color>
+    <color name="diff_btn_down">#efe6cb</color>
+    <color name="preview_bg">#a68d64</color>
+
+    <color name="dialog_bg_n">#262b35</color>
+    <color name="app_bg_n">#16191e</color>
+
+    <color name="text_color_n">#e7e7e7</color>
+    <color name="home_title_n">@color/text_color_n</color>
+    <color name="button_text_n">#d3d3d3</color>
+    <color name="secondary_color_n">#040405</color>
+    <color name="grid_color_n">#000000</color>
+
+    <color name="diff_btn_up_n">#30363f</color>
+    <color name="diff_btn_down_n">#24282e</color>
+    <color name="diff_btn_text_n">@color/text_color_n</color>
+    <color name="stripe_n">#38527b</color>
+    <color name="stripe_darker_n">#304669</color>
+
+    <color name="confirm_text">#878787</color>
+    <color name="confirm_btn_text">#121418</color>
+    <color name="red">#FF0000</color>
+    <color name="hint_bg">#60895f</color>
+
+    <color name="reddish">#fc3538</color>
+
+
+
+</resources>

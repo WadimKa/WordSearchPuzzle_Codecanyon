@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+
+    <!--RelativeLayout
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="#000000"
+        android:alpha="0.7"/-->
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/reward_container"
+        android:layout_width="@dimen/reward_dialog_size"
+        android:layout_height="@dimen/reward_dialog_size2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true">
+
+
+
+        <ImageView
+            android:id="@+id/rays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+
+
+        <TextView
+            android:id="@+id/reward_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/reward_ray_title_margin"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/reward_dialog_padding"
+            android:paddingRight="@dimen/reward_dialog_padding"
+            android:textSize="@dimen/reward_title_size"
+
+            android:textStyle="bold" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/reward_dialog_btn_margin"
+            android:layout_marginRight="@dimen/reward_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector"
+            android:padding="0dp"
+            android:layout_marginBottom="@dimen/reward_dialog_btn_margin"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:src="@drawable/reward_icon_b"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/play_video_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:minHeight="0dp"
+                android:includeFontPadding="false"
+                android:gravity="left|center_vertical"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/play_n"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/time_fin_dialog_btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/reward_dialog_btn_margin"
+            android:layout_marginRight="@dimen/reward_dialog_btn_margin"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/btn_start_video_selector_n"
+            android:padding="0dp"
+            android:layout_marginBottom="@dimen/reward_dialog_btn_margin"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_icon_margin"
+                android:scaleType="centerInside"
+                android:src="@drawable/reward_icon_b_n"
+                android:paddingTop="@dimen/time_fin_dialog_btn_icon_padding"
+                android:paddingBottom="@dimen/time_fin_dialog_btn_icon_padding"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/play_video_label_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="@dimen/time_fin_dialog_btn_label_margin"
+                android:textSize="@dimen/time_fin_dialog_btn_textsize"
+                android:padding="0dp"
+                android:minHeight="0dp"
+                android:includeFontPadding="false"
+                android:gravity="left|center_vertical"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cautare De Cuvinte</string>
+
+    <string name="pref_title_language">Limbă</string>
+
+    <string name="settings">Setări</string>
+    <string name="well_done">Felicitări!</string>
+
+    <string name="change_language">Schimbați limba?</string>
+    <string name="difficult">Dificil</string>
+    <string name="difficulty">Dificultate</string>
+    <string name="easy">Uşor</string>
+    <string name="ext_difficult">Extrem de Dificil</string>
+    <string name="grid">Grilă</string>
+    <string name="home">Acasă</string>
+    <string name="marquee">Puncte Glisante</string>
+    <string name="medium">Mediu</string>
+    <string name="night_mode">Modul de Noapte</string>
+    <string name="no">Nu</string>
+    <string name="paused">Întrerupt</string>
+    <string name="play">Juca</string>
+    <string name="play_again">Joaca din Nou</string>
+    <string name="pret_difficult">Excesiv de Dificil</string>
+    <string name="restart">Repornire</string>
+    <string name="resume">Continua</string>
+    <string name="reward_text">Urmăriți un videoclip pentru a obține 3 sugestii?</string>
+    <string name="sound">Sunet</string>
+    <string name="sup_difficult">Incredibil de Dificil</string>
+    <string name="very_difficult">Foarte Dificil</string>
+    <string name="very_easy">Foarte Usor</string>
+    <string name="watch_video">Vizionați Videoclipul</string>
+    <string name="yes">Da</string>
+    <string name="letter_anim">Scrisoare de Animatie</string>
+    <string name="rta_dialog_title">Evalueaza aceasta aplicatie</string>
+    <string name="rta_dialog_message">Dacă vă place să utilizați această aplicație, vă deranjează un moment pentru a evalua această aplicație? Nu va dura mai mult de un minut. Iti multumesc pentru sprijin!</string>
+    <string name="rta_dialog_ok">Evalueaza</string>
+    <string name="rta_dialog_cancel">Mai tarziu</string>
+    <string name="rta_dialog_no">Nu multumesc</string>
+    <string name="num_cols_label">Numărul de Coloane de Cuvinte</string>
+    <string name="time_mode_title">Limita</string>
+    <string name="time_limited_option">Timp limitat</string>
+    <string name="no_time_limit_option">Fără limită de timp</string>
+    <string name="time_is_up">Timpul terminat</string>
+    <string name="continue_playing">Continuați să jucați?</string>
+    <string name="retry">Reîncercați</string>
+    <string name="gpg_sign_in_label">Logare</string>
+    <string name="gpg_sign_out_label">Deconectați-vă</string>
+    <string name="how_to_play_title">Cum se joacă</string>
+    <string name="how_to_play_text">Găsiți cuvinte ascunse în grilă orizontal, vertical sau diagonal.</string>
+    <string name="hints_title">Utilizați sugestii</string>
+    <string name="hints_text">Puteți dezvălui prima literă a cuvântului următor când sunteți blocat.</string>
+    <string name="hint_reward_title">Sugestie recompensă</string>
+    <string name="hint_reward_text">Puteți câștiga sugestii vizionând un scurt videoclip atunci când le-ați epuizat.</string>
+    <string name="leaderboards_achievements_title">Realizări &amp; clasamente</string>
+    <string name="leaderboards_achievements_text">Conectați-vă la serviciile Google Play pentru a vedea cât de bine faci în comparație cu prietenii și restul lumii.</string>
+    <string name="gpg_sign_in_out_title">Autentificare și deconectare</string>
+    <string name="gpg_sing_in_out_text">Puteți să vă conectați și să vă deconectați cu opțiunea corespunzătoare în setări.</string>
+    <string name="not_signed_in">Delogat</string>
+    <string name="sign_in_to_submit">Conectați-vă pentru a vă trimite progresul</string>
+    <string name="no_connection">Nici o conexiune</string>
+    <string name="extremely_easy">Extrem de Ușor</string>
+</resources>

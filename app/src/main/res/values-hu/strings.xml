@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szó Keresése</string>
+    <string name="rta_dialog_title">Értékeld az alkalmazást</string>
+    <string name="rta_dialog_message">Ha tetszik az alkalmazás kérlek értékeld. Csak egy percet vesz igénybe. Köszönöm a segítségedet!</string>
+    <string name="rta_dialog_ok">Értékelem</string>
+    <string name="rta_dialog_cancel">Később</string>
+    <string name="rta_dialog_no">Nem most</string>
+
+    <string name="pref_title_language">Nyelv</string>
+
+    <string name="settings">Beállítások</string>
+    <string name="well_done">Gratulálok!</string>
+
+    <string name="change_language">Válts Nyelvet?</string>
+    <string name="difficult">Nehéz</string>
+    <string name="difficulty">Nehézség</string>
+    <string name="easy">Könnyen</string>
+    <string name="ext_difficult">Rendkívül Nehéz</string>
+    <string name="grid">Rács</string>
+    <string name="home">Otthon</string>
+    <string name="marquee">Csúszó Pontok</string>
+    <string name="medium">Közepes</string>
+    <string name="night_mode">Éjszakai Mód</string>
+    <string name="no">Nem</string>
+    <string name="paused">Szünetel</string>
+    <string name="play">Játék</string>
+    <string name="play_again">Játszd újra</string>
+    <string name="pret_difficult">Túl Nehézkes</string>
+    <string name="restart">Újrakezd</string>
+    <string name="resume">Folytatni</string>
+    <string name="reward_text">Nézze meg a videót, hogy 3 ötletet kapjon?</string>
+    <string name="sound">Hang</string>
+    <string name="sup_difficult">Szuper Nehéz</string>
+    <string name="very_difficult">Nagyon Nehéz</string>
+    <string name="very_easy">Nagyon Könnyű</string>
+    <string name="watch_video">Videót Nézni</string>
+    <string name="yes">Igen</string>
+    <string name="letter_anim">Levélanimáció</string>
+    <string name="num_cols_label">Szóoszlopok Száma</string>
+    <string name="time_mode_title">Határidő</string>
+    <string name="time_limited_option">Idő korlátozott</string>
+    <string name="no_time_limit_option">Nincs határidő</string>
+    <string name="time_is_up">Az idő befejeződött</string>
+    <string name="continue_playing">Folytassa a játékot?</string>
+    <string name="retry">Próbálja újra</string>
+    <string name="gpg_sign_in_label">Bejelentkezés</string>
+    <string name="gpg_sign_out_label">Kijelentkezés</string>
+    <string name="how_to_play_title">Hogyan kell játszani</string>
+    <string name="how_to_play_text">Keressen rejtett szavakat a rácsban vízszintesen, függőlegesen vagy átlósan.</string>
+    <string name="hints_title">Használjon tanácsokat</string>
+    <string name="hints_text">A következő szó első betűjét felfedezheti, amikor elakadt.</string>
+    <string name="hint_reward_title">Tipp jutalom</string>
+    <string name="hint_reward_text">Kereshetsz tippeket egy rövid videó megtekintésekor, amikor elfogy.</string>
+    <string name="leaderboards_achievements_title">Eredmények &amp; ranglista</string>
+    <string name="leaderboards_achievements_text">Jelentkezzen be a Google Play Services szolgáltatásba, hogy megnézze, milyen jól teljesít a barátaival és a világ többi részével összehasonlítva.</string>
+    <string name="gpg_sign_in_out_title">Jelentkezzen be és ki</string>
+    <string name="gpg_sing_in_out_text">Be lehet jelentkezni és kijelentkezni a megfelelő opcióval a beállításokban.</string>
+    <string name="not_signed_in">Nincs bejelentkezve</string>
+    <string name="sign_in_to_submit">Jelentkezzen be az előrehaladás elküldéséhez</string>
+    <string name="no_connection">Nincs kapcsolat</string>
+    <string name="extremely_easy">Rendkívül egyszerű</string>
+</resources>
